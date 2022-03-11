@@ -1,0 +1,28 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "Node starter project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophwalser/typescript-node-starter.git"
+  },
+  "keywords": [],
+  "author": "Christoph Walser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christophwalser/typescript-node-starter/issues"
+  },
+  "homepage": "https://github.com/christophwalser/typescript-node-starter#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "typescript": "^4.6.2"
+  }
+}
