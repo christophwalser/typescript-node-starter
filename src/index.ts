@@ -1,6 +1,9 @@
+export function add(a: number, b:number): number {
+    return a + b;
+}
 
-function main(): number {
-    console.log('hello world');
+export function main(): number {
+    console.log(`hello world ${add(2, 2)}`);
     return 1;
 }
 
